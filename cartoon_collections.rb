@@ -15,7 +15,8 @@ def long_planeteer_calls(check)
 check.any? { |e| e.length <4 }
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+def find_the_cheese(carry)
+ carry.find  do |cheese|
+cheese.include?(cheese_types)
+cheese_types = ["cheddar", "gouda", "camembert"]
 end

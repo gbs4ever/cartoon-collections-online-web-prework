@@ -3,9 +3,9 @@ def roll_call_dwarves(array)# code an argument here
 array.each_with_index  do |x| puts  "#{index+1} #{x} "
 end
 end
-binding.pry
-def summon_captain_planet# code an argument here
-  # Your code here
+
+def summon_captain_planet(array)# code an argument here
+array.upcase
 end
 
 def long_planeteer_calls# code an argument here

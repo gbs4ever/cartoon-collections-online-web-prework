@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(elment)# code an argument here
 elment.collect.map {|x|    x + "!" }
-elment.map { |e| e.capitalizes  }
+elment.map { |e| e.capitalize  }
 end
 
 

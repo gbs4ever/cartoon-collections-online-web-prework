@@ -5,7 +5,8 @@ array.each_with_index  {|item,index|   puts "#{index+1} #{item}"}
 end
 
 def summon_captain_planet(elment)# code an argument here
-elment.collect.map {|x,y|   y.capitalize  x + "!" }
+elment.collect.map {|x|    x + "!" }
+elment.map { |e| e.capitalizes  }
 end
 
 

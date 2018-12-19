@@ -5,7 +5,7 @@ end
 end
 
 def summon_captain_planet(array)# code an argument here
-array.each.map {  |x|   x.capitalize  "!"}
+array.each.map {|x|   x.capitalize , "!"}
 end
 end
 

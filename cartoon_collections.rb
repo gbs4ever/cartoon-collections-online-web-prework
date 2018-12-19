@@ -1,6 +1,6 @@
 require 'pry'
 def roll_call_dwarves(array)# code an argument here
-array.each_with_index  {|x|  "#{index+1} #{x}"}
+array.each_with_index  {|x|   puts "#{index+1} #{x}"}
 
 end
 binding.pry

@@ -18,4 +18,3 @@ end
 def find_the_cheese(carry)
  carry.include?("cheddar", "gouda", "camembert")
 end
-

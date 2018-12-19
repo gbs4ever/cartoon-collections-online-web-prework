@@ -1,10 +1,10 @@
 require 'pry'
 def roll_call_dwarves(array)# code an argument here
 array.each_with_index do |x|  "#{index+1} #{x}"
-binding.pry
-end
-end
 
+end
+end
+binding.pry
 def summon_captain_planet(elment)# code an argument here
 #array.each.map {|x|   x.capitalize , "!"}
 end

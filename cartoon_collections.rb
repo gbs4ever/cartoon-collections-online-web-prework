@@ -7,7 +7,7 @@ end
 def summon_captain_planet(elment)# code an argument here
 elment.each.map {|x|   x.capitalize }  #{}"!}
 end
-puts elment
+
 
 def long_planeteer_calls# code an argument here
   # Your code here

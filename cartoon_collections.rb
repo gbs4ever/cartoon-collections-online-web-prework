@@ -16,5 +16,8 @@ check.any? { |e| e.length <4 }
 end
 
 def find_the_cheese(carry)
- carry.include?("cheddar", "gouda", "camembert")
+
+carry.find do |x|  x.include?("cheddar")
+ 
+end
 end

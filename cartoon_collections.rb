@@ -7,7 +7,7 @@ end
 def summon_captain_planet(array)# code an argument here
 #array.each.map {|x|   x.capitalize , "!"}
 end
-end
+
 
 def long_planeteer_calls# code an argument here
   # Your code here
